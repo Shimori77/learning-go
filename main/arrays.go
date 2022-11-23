@@ -14,4 +14,8 @@ func printArrays() {
 	arr0 := [3]int{4, 5, 6}
 	fmt.Println(arr0)
 
+	slice := arr[:2]
+	slice[0] = -3
+	fmt.Println(slice)
+	fmt.Println(arr)
 }

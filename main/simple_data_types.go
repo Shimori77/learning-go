@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func printSimpleDataTypes() {
+	fmt.Println("--- Simple Data Types ---")
 	var i int
 	i = 42
 	fmt.Println(i)

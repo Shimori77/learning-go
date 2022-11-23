@@ -4,4 +4,5 @@ func main() {
 	printSimpleDataTypes()
 	printPointers()
 	printArrays()
+	printMaps()
 }
